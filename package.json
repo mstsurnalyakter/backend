@@ -1,19 +1,28 @@
 {
-  "name": "backend-project",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "a basic app to deploy",
+  "description": "A backend project",
   "keywords": [
-    "node"
+    "javascript",
+    "backend",
+    "express",
+    "node",
+    "mongodb",
+    "mongoose"
   ],
+  "homepage": "https://github.com/mstsurnalyakter/backend#readme",
+  "bugs": {
+    "url": "https://github.com/mstsurnalyakter/backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mstsurnalyakter/backend.git"
+  },
   "license": "ISC",
   "author": "mst surnaly akter",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
