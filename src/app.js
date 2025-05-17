@@ -13,7 +13,7 @@ app.use(
 );
 
 app.use(express.json({ limit: DATA_LIMIT }));
-app.use(express.urlencoded({extended:true,limit:DATA_LIMIT}));
+app.use(express.urlencoded({extended: true ,limit:DATA_LIMIT}));
 app.use(express.static("public"));
 app.use(cookieParser());
 
